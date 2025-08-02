@@ -1,0 +1,10 @@
+Physics Engine
+---
+An psudo-extention of my OpenGL university project, using a more barebones renderer.
+The physics system was coded from scratch and includes Sphere, Plane, AABB and OBB collisions.
+---
+C++, OpenGL
+---
+thumbnail url (gets injected into your landing page) 
+---
+PhysicsProjectUni.html

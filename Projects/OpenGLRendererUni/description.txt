@@ -1,0 +1,10 @@
+Open GL Renderer
+---
+A second year university project, a renderer using OpenGL. As the focus was primarily on rendering and not on implementing gameplay systems.
+This renderer using a mix of deffered and forward rendering to properly render solid and translucent materials.
+---
+C++, OpenGL
+---
+./Media/OpenGLRenderer/thumbnail.png
+---
+OpenGLRendererUni.html

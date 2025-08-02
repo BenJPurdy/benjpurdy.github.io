@@ -1,0 +1,8 @@
+../../Media/CUDAParticleSimUni/smallRender.png
+High quality image of the particle simulation rendered in blender 4.0.
+
+../../Media/CUDAParticleSimUni/CUDASimulation.png
+Visualisation of the CUDA simulation, rendered using lightweight OpenGL shaders.
+
+../../Media/CUDAParticleSimUni/OpenCLSimulation.png
+Visualisation of the OpenCL simulation, rendered using lightweight OpenGL shaders.

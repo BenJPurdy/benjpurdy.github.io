@@ -1,0 +1,2 @@
+../../Media/OpenGLRenderer/thumbnail.png
+Lit render of the scene. Models (excluding the ground and water planes) are from Fab megascans.
