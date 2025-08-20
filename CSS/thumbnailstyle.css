@@ -1,6 +1,6 @@
 #thumbnail-container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Ensure items fill the space */
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); /* Ensure items fill the space */
   gap: 5px; /* Consistent gap between items */
   box-sizing: border-box;
   width: 100%; /* Ensure it spans the full width */
@@ -19,7 +19,7 @@
 }
 
 .thumbnail {
-  border-radius: 0.2em;
+  border-radius: 0.5em;
   overflow: hidden;
   position: relative;
   cursor: pointer;
@@ -63,7 +63,7 @@
   z-index: 2;
   color: white;
   font-size: 18px;
-  opacity: 0;
+  opacity: 1;
   transition: opacity 0.5s;
   
 }

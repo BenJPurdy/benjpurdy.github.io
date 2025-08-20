@@ -2,9 +2,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const thumbnailContainer = document.getElementById('thumbnail-container');
     const plusButton = document.getElementById('plus-button');
     const minusButton = document.getElementById('minus-button');
-
+    const DEFAULTTHUMBNAILSIZE = 400;
     // Retrieve the saved minWidth from localStorage or set default value
-    let minWidth = parseInt(localStorage.getItem('thumbnailMinWidth')) || 250;
+    let minWidth = parseInt(localStorage.getItem('thumbnailMinWidth')) || DEFAULTTHUMBNAILSIZE;
+    
 
     // Apply the initial size from localStorage
     updateThumbnailSize();
@@ -47,6 +48,8 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     function updateThumbnailSize() {
+        console.log(thumbnailContainer.style);
         thumbnailContainer.style.gridTemplateColumns = `repeat(auto-fill, minmax(${minWidth}px, 1fr))`;
+        console.log(thumbnailContainer.style);
     }
 });

@@ -59,7 +59,7 @@ h3 {
   align-items: center;
   padding: 0;
   overflow-y: auto; /* Enable vertical scrolling */
-  height: 100vh; /* Full viewport height */
+  height: 200vh; /* Full viewport height */
 }
 
 

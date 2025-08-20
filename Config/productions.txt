@@ -12,5 +12,5 @@
 Games Technology
 Coventry University
 2022-2025
-https://productionimage.jpg 
+../Media/ProductionsImages/CU/coventryuniversitylogo.jpg
 I have achived a first class degree with honours in Games Technology from Coventry University
