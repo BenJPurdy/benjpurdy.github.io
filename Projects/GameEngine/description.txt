@@ -1,9 +1,12 @@
-3rd Year Game Engine Project
+Game Engine Project
 ---
 This was a capstone project for my university course, involving creating a game engine utilising middleware.
 It contains a fully functional scripting system using C++ and w64devkit's portable C++ compiler and can be used to make games in 2d.
 Scripts are injected into the game engine using a DLL, which is dynmaically compiled based on when file edit times, 
 allowing for fast recompilation by only building the neccessary object files when at runtime.
+It is currently being expanded on my own time to include textures and 3d rendering.
+<br>
+Code for this project can be found at: https://github.com/BenJPurdy/GameEngine
 ---
 C++, ImGui, ImGuizmo, implot, box2d, enet, entt, spdlog, sysinfo, yamlcpp, w64devkit
 ---
