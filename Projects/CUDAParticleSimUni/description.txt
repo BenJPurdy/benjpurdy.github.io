@@ -6,7 +6,11 @@ The renderer itself is simplistic, not needing to be excessively fancy to displa
 <br>
 I created a version of the simulation using Blender's Geometry Nodes for a high quality render of the simulation.
 <br>
-The primary objective of the module was to look at the differences between the two methods, by comparing frame times. I went into a little more detail with the CUDA simulation, looking at data-loading times from the CPU to the GPU, and modified my code to ensure that there was only one instance of data being passed from CPU to GPU, from that point on all data was kept on the GPU and context switching was used to allow for both CUDA and OpenGL to use the same data for simulation and rendering respectively.
+The primary objective of the module was to look at the differences between the two methods, by comparing frame times. 
+I went into a little more detail with the CUDA simulation, looking at data-loading times from the CPU to the GPU, and modified my code to ensure that there was only one instance of data being passed from CPU to GPU, from that point on all data was kept on the GPU and context switching was used to allow for both CUDA and OpenGL to use the same data for simulation and rendering respectively.
+<br>
+Code for this project can be found on github: https://github.com/BenJPurdy/CUDAParticleSimulation
+
 ---
 C++, CUDA, OpenCL, GLSL
 ---
