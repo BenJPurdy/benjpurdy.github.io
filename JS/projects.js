@@ -87,6 +87,8 @@ document.addEventListener('DOMContentLoaded', () => {
                     i += 1;
                 }
 
+                
+
                 // Check if the line contains a pair of images
                 if (lines[i].includes(' // ')) {
                     urls = lines[i].split(' // ').map(url => url.trim());
@@ -94,7 +96,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 // Adjust URLs for relative paths
                 urls = urls.map(url => (url.startsWith('http') ? url : basePath + url));
-
+                
                 if (description.includes('(marmoset viewer)')) {
                     urls = [`${urls[0]}.mview`];
                 }
@@ -126,10 +128,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const createMediaElement = (urls, description) => {
         let mediaElement;
-
+        let foundDropbox = false;
+        console.log(urls[0]);
+        if (urls[0].includes('dropbox.com'))
+        {
+            //console.log("Found a drobox link");
+            foundDropbox = true;
+        }
         if (urls[0].match(/\.(jpeg|jpg|gif|png)$/) != null) {
             mediaElement = createImageElement(urls);
-        } else if (urls[0].match(/\.(mp4|webm)$/) != null) {
+        } else if (urls[0].match(/\.(mp4|webm)$/) != null || foundDropbox) {
             mediaElement = createVideoElement(urls[0]);
         } else if (urls[0].includes('youtube.com')) {
             mediaElement = createYouTubeElement(urls[0]);
@@ -213,6 +221,7 @@ document.addEventListener('DOMContentLoaded', () => {
         videoElement.title = 'Video content';
 
         mediaElement.appendChild(videoElement);
+        console.log(videoElement);
         return mediaElement;
     };
 
