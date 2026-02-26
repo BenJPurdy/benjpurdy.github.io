@@ -1,0 +1,2 @@
+../../Media/FlightSimulation/EarlyWork.webm
+Footage of an early test of the flight system. Using a combination of blueprints for input handling and C++ for simulation, aerodynamic forces are calculate per aerodynamic surface (shown in the debug mode by blue and yellow planes). These force are applied to the physics body of the aircraft and account for linear and angular force. The thrust is applied via a pull from a point on the nose of the airframe where the propeller is modelled.
