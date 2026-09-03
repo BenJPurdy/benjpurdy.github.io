@@ -1,2 +1,2 @@
-../../Media/GameEngine/GameEngine.png
-Descriptions go under each image like this! png/jpeg/jpg/gif supported.
+../../Media/GameEngine/GameEngineTN.png
+Screenshot of the game engine in it's current state. Visible is a test triangle, which accepts a uniform bind to change which vertex is coloured. This also shows the logging system, which uses a seperate thread to not interupt the game execution with expensive writes to the standard output

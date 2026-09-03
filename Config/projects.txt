@@ -1,5 +1,6 @@
 CUDAParticleSimUni
-GameEngine
+GameEngineUni
 VulkanRenderer
 OpenGLRendererUni
 FlightSimulation
+GameEngine
