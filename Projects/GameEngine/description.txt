@@ -6,7 +6,7 @@ While the project is still in it's infancy, I have been using it to learn about 
 <br>
 As this is a game engine with a game in mind, I am planning on adding low level aerodynamic simulation into the engine. This has already been experimented with using Unreal Engine (see project: https://benjpurdy.github.io/Projects/FlightSimulation/FlightSimulation.html) 
 <br>
-Code for the project can be found here: https://github.com/BenJPurdy/UnnamedGameEngine
+Code for the project can be found here: https://github.com/itsBowl/UnnamedGameEngine
 ---
 C++, GLSL, OpenGL
 ---
